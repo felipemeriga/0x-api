@@ -28,6 +28,26 @@ export const TokenMetadatasForChains: TokenMetadataAndChainAddresses[] = [
         },
     },
     {
+        symbol: 'TOKN',
+        name: 'Tokenizer Platform Chain',
+        decimals: 18,
+        tokenAddresses: {
+            [ChainId.Mainnet]: '0x6871590148376fde7409cda1dbb5208e879e9253',
+            [ChainId.Kovan]: '0x6871590148376fde7409cda1dbb5208e879e9253',
+            [ChainId.Ganache]: '0x6871590148376fde7409cda1dbb5208e879e9253',
+        },
+    },
+    {
+        symbol: 'XR',
+        name: 'XRWeb',
+        decimals: 18,
+        tokenAddresses: {
+            [ChainId.Mainnet]: '0x61ec1a25f763eef9823773c7bdb9d7c644fb3503',
+            [ChainId.Kovan]: '0x61ec1a25f763eef9823773c7bdb9d7c644fb3503',
+            [ChainId.Ganache]: '0x61ec1a25f763eef9823773c7bdb9d7c644fb3503',
+        },
+    },
+    {
         symbol: 'REP',
         name: 'Augur Reputation',
         decimals: 18,
